@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-: "${GH_TOKEN:?GH_TOKEN is required}"
+: "${MY_GH_TOKEN:?MY_GH_TOKEN is required}"
 : "${GITHUB_REPOSITORY:?GITHUB_REPOSITORY is required}"
 
 keep_releases="${KEEP_RELEASES:-20}"
